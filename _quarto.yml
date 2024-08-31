@@ -1,0 +1,30 @@
+project:
+  type: website
+
+about: 
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hamza-jamal-89676a21b/
+    - icon: github
+      text: GitHub
+      href: https://github.com/HamzaYusufJamal
+
+website:
+  title: "E155 Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
